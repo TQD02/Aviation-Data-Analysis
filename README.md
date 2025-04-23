@@ -24,9 +24,11 @@ Initial Summary:
 Exploratory analysis using summary() and barplot() revealed class imbalance in AirCraftDamage..
 
 _2. Logistic Regression Model:_
+
 Used glm() with a binomial family to model aircraft damage as a function of the three predictors.
 
 _3. Decision Tree Modeling:_
+
 Split the dataset 80/20 for training/testing.
 
 Trained a decision tree using the tree package
@@ -36,6 +38,10 @@ Saved the tree visualization to a JPEG file: flightTree.jpg
 Evaluated complexity using 10-fold cross-validation (cv.tree())
 
 _4. Random Forest Classification:_
-Applied a Random Forest model to the training data:
+
+Applied a Random Forest model to the training data
+
 Evaluated performance using a confusion matrix
+
 Visualized feature importance
+
